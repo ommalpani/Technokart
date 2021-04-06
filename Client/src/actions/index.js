@@ -24,7 +24,6 @@ export const addToCart = (product, user) => async (dispatch) => {
         }
 
         if (!flag) {
-            // user.cart.push({...product , quantity : 1 , price : product.price})
             user.cart.push({ ...product, quantity: 1 })
             const data = await api.updateData(user);
         }
