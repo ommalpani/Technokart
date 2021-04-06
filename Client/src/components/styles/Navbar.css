@@ -1,0 +1,122 @@
+.navbar-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+h1.technokart-logo{
+    color : #9700ff;
+    letter-spacing: 0px;
+}
+
+
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.navbar-links > .login-link{
+    margin-left : 40px;
+    color : #9700ff;
+    border : 1px solid #9700ff;
+    padding : 16px 30px;
+    border-radius : 100px;
+}
+
+.navbar-left a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.user-profile {
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    border : 1px solid #9700ff;
+    border-radius : 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.user-profile>h3 {
+    font-size: 20px;
+    margin-right: 10px;
+    color : #9700ff;
+}
+
+.user-profile a {
+    margin: 0 10px;
+}
+
+.profile-user-icon {
+    margin: 0 10px 0 0;
+    font-size: 25px;
+    color : #9700ff;
+}
+
+.profile-down-arrow {
+    color : #9700ff;
+}
+
+.menu-container {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 220px;
+    z-index: 100;
+}
+
+.menu-container a {
+    background-color: #fff;
+    display: block;
+    transition: all 0.2s ease;
+    width: 100%;
+    border : 1px solid rgb(224, 224, 224);
+
+}
+
+.menu-container a:hover {
+    /* background: black; */
+    background-color: #9700ff;
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    height: 75px;
+}
+
+.menu-item:last-child {
+    border: none;
+}
+
+.menu-item>h2 {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.menu-icon {
+    margin: 0 20px;
+}
+
+.purple{
+    color : #9700ff;
+}

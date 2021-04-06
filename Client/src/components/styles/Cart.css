@@ -1,0 +1,138 @@
+
+.cart-container{
+    width : 90%;
+    margin : auto;
+    display : flex;
+    justify-content: space-between;
+    align-items : flex-start;
+}
+
+.cart-left-outer{
+    width : 60%;
+    padding: 50px;
+    /* background-color: yellow; */
+}
+.cart-right-outer{
+    width : 30%;
+    /* background-color: red; */
+    padding : 30px;
+}
+
+.cart-product-outer{
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* align-items: center; */
+    margin-bottom : 20px;
+}
+
+.cart-product-outer img{
+    width : 30%;
+}
+
+.cart-product-info{
+    width : 50%;
+    padding: 20px;
+}
+
+.cart-product-name{
+    font-size : 40px;
+    line-height : 60px;
+}
+
+.cart-product-name2{
+    font-size : 26px;
+    line-height : 60px;
+    color : rgb(0, 0, 0);
+}
+
+.cart-product-price,
+.cart-product-desc,
+.cart-product-category{
+    line-height : 30px;
+    font-size : 22px;
+    color : rgb(80,80,80);
+}
+
+.cart-item-quantity{
+    display : inline-block;
+    margin-right : 20px;
+}
+
+
+.cart-icons{
+    display : flex;
+    align-items: center;
+    margin-top : 60px;
+}
+
+.icon-plus , 
+.icon-minus,
+.icon-delete{
+    color : rgb(50,50,50);
+    margin : 0px 20px 0px 0px;
+    background-color : rgb(238, 238, 238);
+    border-radius : 4px;
+    padding : 10px;   
+    cursor: pointer;
+}
+
+
+.icon-plus:hover, 
+.icon-minus:hover,
+.icon-delete:hover{
+    background-color : rgb(200,200,200);
+}
+
+.icon-delete{
+    padding : 10px 30px;
+}
+
+.cart-right{
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom : 20px;
+    padding : 20px;
+    border-bottom : 2px solid rgb(223, 223, 223);
+
+}
+
+.right-cart-bottom{
+    height : 60px;
+    border-radius: 12px;
+    padding : 20px;
+    background-color: rgb(243, 243, 243);
+    display : flex;
+    justify-content: space-between;
+}
+
+.checkout-button{
+    margin-top : 60px;
+    border : none;
+    background-color : #000;
+    color : #fff;
+    font-size : 24px;
+    font-weight : 800;
+    cursor: pointer;
+    width : 100%;
+    padding : 30px 60px;
+    border-radius : 6px;
+}
+
+.cart-message{
+    text-align : center;
+}
+
+.cart-message>h2{
+    font-size : 50px;
+    line-height : 200px;
+}
+
+.cart-message>a{
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius : 8px;
+    background-color : #9700ff;
+    color : #fff;
+}

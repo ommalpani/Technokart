@@ -1,0 +1,19 @@
+.checkout-container{
+    /* display : flex;
+    flex
+    justify-content: center;
+    align-items: center; */
+    text-align : center;
+}
+
+.checkout-icon{
+    margin-top : 50px;
+    color : rgb(0, 255, 0);
+    font-size : 220px;
+    margin-bottom : 40px;
+}
+
+.checkout-message{
+    font-size : 40px;
+    line-height : 70px;
+}

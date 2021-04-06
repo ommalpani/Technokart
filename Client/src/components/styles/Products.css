@@ -1,0 +1,142 @@
+.outer-products {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.products-filter {
+    width: 15%;
+    min-width : 200px;
+    padding: 20px 10px 20px 20px;
+    position : sticky;
+    top : 50px;
+}
+
+.products-filter h3 {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(185, 185, 185);
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+
+.all-products-outer {
+    width: 80%;
+}
+
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.products-spinner-container{
+    margin : 200px auto;
+    height : 100px;
+    width : 100px;
+}
+
+.products-spinner {
+    color: #555555;
+    font-size: 60px;
+    background-color: #fff;
+    animation: rotate 1.2s ease infinite;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.products-filter ul {
+    list-style: none;
+}
+
+.products-filter ul li {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-container{
+    margin-top : 20px;
+    width : 90%;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    padding : 5px 20px 5px 30px;
+    border: none;
+    font-size: 22px;
+    outline: none;
+}
+
+
+
+.search-icon{
+    font-size : 30px;
+    color : rgb(80,80,80);
+}
+
+.products-filter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    line-height: 70px;
+    padding: 0 20px;
+    border-bottom: 2px solid rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+.products-filter-item:last-child{
+    margin-bottom : 30px;
+}
+
+
+
+.right-arrow{
+    color : rbg(50,50,50);
+}
+
+.highlight{
+    background-color : rgb(32, 32, 32);
+    color : #fff;
+}
+
+.sort-container{
+    text-align : center;
+}
+
+.high-to-low-button{
+    border : none;
+    padding : 18px 30px;
+    color: #000;
+    background-color : #fff;
+    border: 1px solid #000;
+    border-radius : 6px;
+    margin : 0 auto 30px auto;
+    font-weight : 600;
+    cursor: pointer;
+}
+
+.highlight-button{
+    background-color : black;
+    color : white;
+    border: none;
+}

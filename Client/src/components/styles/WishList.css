@@ -1,0 +1,60 @@
+.outer-wishlist{
+    width : 50%;
+    margin : auto;
+}
+
+.outer-wishlist >div{
+    padding : 30px 50px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 30px;
+    border : 2px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    position : relative;
+}
+
+.outer-wishlist>h1{
+    text-align : center;
+    line-height: 100px;
+    font-size : 50px;
+}
+
+
+.outer-wishlist>h2{
+    line-height : 100px;
+    text-align: center;
+    color : gray;
+}
+
+.outer-wishlist > div > img{
+    height : 300px;
+}
+
+.outer-wishlist > div >div > h1
+{
+    line-height: 80px;
+}
+
+.outer-wishlist > div >div > h4{
+    line-height : 30px;
+    color : rgb(82, 82, 82);
+}
+
+.outer-wishlist>div>div{
+    width : 50%;
+}
+
+
+.delete-icon-wishlist{
+    position : absolute;
+    bottom: 40px;
+    right : 40px;
+    font-size : 20px;
+    color : rgb(150,150,150);
+    cursor: pointer;
+}
+
+.delete-icon-wishlist:hover{
+    color : black;
+}

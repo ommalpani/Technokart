@@ -1,0 +1,27 @@
+.outer-product{
+    padding : 20px;
+    border-radius: 8px;
+    text-align : center;
+    margin-bottom : 40px;
+    cursor: pointer;
+}
+
+.outer-product h2{
+    font-size : 40px;
+    line-height: 60px;
+    color : rgb(31, 31, 31);
+}
+
+.outer-product h3{
+    font-size : 32px;
+    color : #9700ff;
+}
+
+.outer-product h4{
+    line-height : 30px;
+    color : rgb(60,60,60);
+}
+
+.outer-product img{
+    height : 400px;
+}

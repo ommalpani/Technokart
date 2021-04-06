@@ -1,0 +1,90 @@
+.billing-container{
+    width : 80%;
+    margin : auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.billing-left-section{
+    width : 50%;
+}
+.billing-right-section{
+    width : 50%;
+}
+
+
+.billing-left-section>h2{
+    line-height : 100px;
+    border-bottom : 2px solid gray;
+    display: inline-block;;
+    margin-bottom : 30px;
+}
+
+
+.billing-right-section>h2{
+    line-height : 100px;
+    border-bottom : 2px solid gray;
+    display: inline-block;;
+    margin-bottom : 30px;
+}
+
+.billing-left-section>div{
+    display : flex;
+    align-items: center;
+}
+
+.billing-left-section > button{
+    margin-top : 30px;
+
+    padding : 20px 40px;
+    border-radius: 8px;
+    border : 2px solid #000;
+    background-color: #fff;
+    outline : none;
+    font-size : 24px;
+}
+
+.billing-left-section > button:hover{
+    background-color : #000;
+    color : white;
+}
+
+
+.billing-left-section>div>h3{
+    line-height : 60px;
+    text-transform: capitalize;
+}
+
+.billing-left-section>div>h3:first-child{
+    width: 200px;
+}
+
+
+.billing-right-section > div > h3{
+    line-height :60px;
+}
+
+.billing-right-section > div > h3:first-child{
+    font-size : 35px;
+}
+
+.billing-right-section > div > h3:last-child{
+    font-size : 22px;
+    color : rgb(98, 98, 98);
+    margin-bottom: 20px;
+}
+
+.edit-icon{
+    margin : 0 10px;
+}
+
+.billing-right-bottom{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(241, 241, 241); */
+    border-radius : 12px;
+    width : 400px;
+    height : 120px;
+}
